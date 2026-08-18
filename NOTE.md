@@ -17,3 +17,5 @@ The Framer canvas shows the loading skeleton statically (it doesn't run the fetc
 
 ## AI used
 Kimi (via opencode) wrote the first full draft of the component and page layout. I reviewed, adjusted the currency/retry logic, and verified every state against the live API.
+
+**Shared chat link:** https://opncd.ai/share/9N4TlzSu (raw export also in this repo as `chat-export.json`)

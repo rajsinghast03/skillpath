@@ -4,10 +4,25 @@ A Framer landing page for a fake learning platform, built for a junior-developer
 
 **Live site:** https://miraculous-knowledge-415904.framer.app
 
+## Everything for this submission is in this repo
+
+| Deliverable | Where |
+|---|---|
+| Published Framer link | https://miraculous-knowledge-415904.framer.app |
+| Code | `Courses.tsx` (below) |
+| Short note (what I'd fix, where I got stuck, AI used) | `NOTE.md` |
+| AI chat — public shared link | https://opncd.ai/share/9N4TlzSu |
+| AI chat — raw export (same conversation) | `chat-export.json` |
+
+The assignment asks for a public link to the actual AI chat. That link is above; the
+full export of the same conversation is also committed here as `chat-export.json`
+(the `info.share.url` field inside it points to the same public link).
+
 ## What's here
 
 - `Courses.tsx` — the React code component that powers the courses section. It fetches live data from the assignment API inside the component, handles loading / error / empty / success states, and formats prices per the detected country.
 - `NOTE.md` — the short reflection note (what I'd fix, where I got stuck, AI disclosure).
+- `chat-export.json` — the exported AI conversation used during the build.
 - Hero and footer are native Framer layers (not code), built on the canvas.
 
 ## The courses component
